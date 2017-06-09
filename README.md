@@ -1,9 +1,9 @@
-# Fingerprintjs2
+# Fingerprintjs2sync
 
 ### Installation
 
 ```
-yarn add fingerprintjs2Sync
+yarn add fingerprintjs2sync
 ```
 
 ### Usage
