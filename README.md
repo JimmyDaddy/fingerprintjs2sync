@@ -5,14 +5,14 @@ The original [Fingerprintjs2](https://github.com/Valve/fingerprintjs2) is curren
 ### Installation
 
 ```
-import Fingerprint2 from 'fingerprintjs2sync';
-
 yarn add fingerprintjs2sync
 ```
 
 ### Usage
 
 ```js
+import Fingerprint2 from 'fingerprintjs2sync';
+
 const fprint = (new Fingerprint2()).getSync().fprint;
 ```
 
