@@ -1,7 +1,8 @@
 /*
-* Fingerprintjs2 1.5.1 - Modern & flexible browser fingerprint library v2
-* https://github.com/Valve/fingerprintjs2
+* Fingerprintjs2sync 1.5.2 - Synchronous version of fingerprintjs2
+* https://github.com/valnub/fingerprintjs2sync
 * Copyright (c) 2015 Valentin Vasilyev (valentin.vasilyev@outlook.com)
+* Fork by Timo Ernst
 * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
 *
 * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
@@ -92,7 +93,7 @@
       });
       var murmur = that.x64hash128(values.join("~~~"), 31);
       return {
-        murmur: murmur,
+        fprint: murmur,
         newKeys: newKeys
       };
     },
