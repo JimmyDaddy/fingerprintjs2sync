@@ -1,6 +1,6 @@
 {
   "name": "fingerprintjs2sync",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Synchronous version of fingerprintjs2",
   "main": "dist/fingerprint2.min.js",
   "devDependencies": {
