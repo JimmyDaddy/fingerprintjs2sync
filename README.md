@@ -3,7 +3,7 @@
 ### Installation
 
 ```
-yarn add fingerprintjs2
+yarn add fingerprintjs2Sync
 ```
 
 ### Usage
