@@ -97,12 +97,6 @@
         newKeys: newKeys
       };
     },
-    get: function(done){
-      var result = getSync();
-      setTimeout(function () {
-        done(result.murmur, result.newKeys);
-      }, 1);
-    },
     customEntropyFunction: function (keys) {
       if (typeof this.options.customFunction === "function") {
         keys.push({key: "custom", value: this.options.customFunction()});
