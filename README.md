@@ -2,7 +2,7 @@
 
 ## Synchronous Version of Fingerprintjs
 
-This is a fork of [Fingerprintjs](https://github.com/fingerprintjs/fingerprintjs). Back then Fingerprintjs looked like it was not maintained anymore ([in 2020 it looks like this is not the case anymore](https://github.com/valnub/fingerprintjs2sync/issues/1)) but I needed a synchronously working version of this lib, so here it is. Note that I had to remove Flash/Swf Font support but who still uses Flash in 2020, eh?
+This is a fork of [Fingerprintjs](https://github.com/fingerprintjs/fingerprintjs). Back then in 2017 Fingerprintjs looked like it was not maintained anymore ([in 2020 it looks like this is not the case anymore](https://github.com/valnub/fingerprintjs2sync/issues/1)) but I needed a synchronously working version of this lib, so here it is. Note that I had to remove Flash/Swf Font support but who still uses Flash in 2020, eh?
 
 ### Installation
 
